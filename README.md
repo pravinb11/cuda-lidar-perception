@@ -7,7 +7,7 @@ A GPU-accelerated LiDAR processing and 3D perception pipeline developed using NV
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/pravinb11/cuda-lidar-perception.git
 cd cuda_lidar_project
 ```
 
