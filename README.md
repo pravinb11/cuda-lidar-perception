@@ -2,6 +2,11 @@
 
 A GPU-accelerated LiDAR processing and 3D perception pipeline developed using NVIDIA CUDA and c++
 
+## Topics completed
+### 1. 
+### 2. 
+### 3. CUDA Memory management
+
 ## 🔨 Build Instructions
 
 ### 1. Clone the repository
