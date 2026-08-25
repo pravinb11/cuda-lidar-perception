@@ -13,7 +13,11 @@ add_executable(hello_cuda
 
 add_executable(vector_add
     src/vector_add.cu
-)   
+)
+
+add_executable(memory_demo
+    src/memory_demo.cu
+)
 
 set_target_properties(hello_cuda PROPERTIES
     CUDA_SEPARABLE_COMPILATION ON
