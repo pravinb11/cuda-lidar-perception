@@ -107,6 +107,26 @@ target_include_directories(lidar_filter PRIVATE
     include
 )
 
+
+add_executable(test_loader
+    src/test_loader.cpp
+    src/pointcloud_loader.cpp
+)
+
+target_include_directories(test_loader PRIVATE
+    include
+)
+
+
+add_executable(lidar_filter_pcd
+    src/lidar_filter_pcd.cu
+    src/pointcloud_loader.cpp
+)
+
+target_include_directories(lidar_filter_pcd PRIVATE
+    include
+)
+
 set_target_properties(hello_cuda PROPERTIES
     CUDA_SEPARABLE_COMPILATION ON
 )
